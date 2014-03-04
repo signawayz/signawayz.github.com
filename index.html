@@ -6,10 +6,10 @@
     <meta http-equiv="X-UA-Compatible" content="chrome=1" />
     <meta name="description" content="signawayz.com" />
 
-    <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/stylesheet.css">
     <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css">
     <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap-theme.min.css">
-    
+    <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/stylesheet.css">
+
     <link rel="stylesheet" media="screen" href="stylesheets/dancing.css" type="text/css">
 
     <link rel="shortcut icon" href="signawayz.ico">
@@ -18,10 +18,18 @@
   </head>
 
   <body>
+    <nav role="navigation" class="navbar navbar-fixed-top">
+      <div class="container">
+        <div class="navbar-header">
+          <a href="http://www.signawayz.com/#!/" ng-if="!common" class="navbar-brand sign ng-scope">SignAwayz<span class="beta">beta</span></a>
+        </div>
+      </div>
+    </nav>
+
     <div class="container">
       <div class="row">
         <div id="center">
-          <div class="name">SignAwayz</div><br>
+          <h1>Blog<h2>
           <div class="info"><b>Coming soon...</b></div>
         </div>
       </div>
