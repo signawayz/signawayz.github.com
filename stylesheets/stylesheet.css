@@ -273,3 +273,8 @@ img#deskconnect {
 p{
   font-size:20px;
 }
+.date {
+  margin:0;
+  font-size: 14px;
+  color: gray;
+}
