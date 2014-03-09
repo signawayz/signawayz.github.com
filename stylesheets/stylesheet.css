@@ -266,3 +266,10 @@ fieldset[disabled] .btn-primary.active {
     margin-left: 0;
   }
 }
+
+img#deskconnect {
+  width:200px;
+}
+p{
+  font-size:20px;
+}
