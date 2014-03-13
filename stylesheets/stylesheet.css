@@ -273,6 +273,9 @@ img#deskconnect {
 p{
   font-size:20px;
 }
+ol.content{
+  font-size:20px;
+}
 .date {
   margin:0;
   font-size: 14px;
